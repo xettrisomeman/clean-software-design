@@ -10,6 +10,16 @@
  # Children should be like their parents for what they inherit.
 
 
+"""
+If you have a vehicle and you can drive it, then the classes inheriting from vehicle is also drivable.
+
+,
+
+if you have a mammal class then animal inheriting from mammal class should also be a mammal.
+"""
+
+
+
 
 # Implementation
 
@@ -136,3 +146,5 @@ class Works:
 
 works = Works([TruckDriver(), TaxiDriver(), Pilot()])
 works.do_work()
+
+ 
